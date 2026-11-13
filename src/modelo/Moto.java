@@ -17,6 +17,7 @@ public class Moto extends Repartidor {
         return "Moto";
     }
     // metodo para calcular valor de los kilometros recorridos
+<<<<<<< HEAD
     @Override
     public double calcularCosto(double km, boolean lluvia) {
         double costo = tarifaBase + (km * valorPorKilometro);
@@ -24,6 +25,10 @@ public class Moto extends Repartidor {
             costo = costo * 1.20; // Aumento del 20% por lluvia
         }
         return costo;
+=======
+    public double calcularCosto(double km){
+        return tarifaBase + (km * valorPorKilometro);
+>>>>>>> 66b63ff029f6fbb41f98c471a38e34e93d3f18eb
     }
     // metodo para calcular el tiempo que tarda el repartidor
     @Override
