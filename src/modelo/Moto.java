@@ -14,7 +14,6 @@ public class Moto extends Repartidor {
 
     }
 
-
     // metodo para calcular valor de los kilometros recorridos
     public double calcularCosto(double km){
         return tarifaBase + (km * valorPorKilometro)
