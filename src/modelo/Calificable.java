@@ -28,8 +28,7 @@ public abstract class Repartidor implements Calificable {
         this.disponible = true;
     }
 
-    // Getters y setters de código, nombre y disponible van aquí (paso 3 del reto)
-
+    // Getters y setters
     @Override
     public void recibirCalificacion(int calificacion) {
         if (calificacion < 1 || calificacion > 5) {
