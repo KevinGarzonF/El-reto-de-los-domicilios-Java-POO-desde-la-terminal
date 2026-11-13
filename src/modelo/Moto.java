@@ -24,6 +24,8 @@ public class Moto extends Repartidor {
             costo = costo * 1.20; // Aumento del 20% por lluvia
         }
         return costo;
+    }
+
     public double calcularCosto(double km){
         return tarifaBase + (km * valorPorKilometro);
     }
