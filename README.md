@@ -4,6 +4,8 @@ integrantes:
 - Luisa Fernanda Sanchez
 - Jimmy Peralta Gordillo
 
+link del video: https://drive.google.com/file/d/1pls47saa1XsU761OCax5aUGsuD9EjmXq/view?usp=sharing
+
 ¿cuántos archivos tuvieron que tocar para agregar el dron y por qué?
 Rta: Solo se creo la clase Dron y se intento integrar en el main.java
 
